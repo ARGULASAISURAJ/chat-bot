@@ -1,7 +1,8 @@
 from rasa.nlu.components import Component
 import pickle
 from rasa.nlu.model import Metadata
-from rasa.nlu.constants import INTENT, TEXT, TOKENS_NAMES
+from rasa.shared.nlu.constants import INTENT, TEXT
+from rasa.nlu.constants import TOKENS_NAMES
 
 # nltk needs to be installed
 import nltk
